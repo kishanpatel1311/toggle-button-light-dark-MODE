@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+img{
+    filter: invert(1);
+    width: 30px;
+    height: 30px;
+    margin: auto;
+    transition-duration:300ms;
+}
+
+.container{
+    position: relative;
+    height: 55px;
+    width: 100px;
+    border: 2px solid gray;
+    border-radius:30px;
+    display: flex;
+    align-items: center; 
+    transition-duration:300ms;
+
+}
+
+.box{
+    height: 45px;
+    width: 45px;
+    background-color: black;
+    border-radius: 50%;
+    margin: 0 3px;
+    transition-duration:300ms;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
